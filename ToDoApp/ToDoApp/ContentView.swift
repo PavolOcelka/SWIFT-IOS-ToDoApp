@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+<<<<<<< HEAD
     
     @State private var newTodoText: String = ""
     @State private var newTodoType: String = ""
@@ -88,10 +89,23 @@ struct ContentView: View {
     
     private func deleteTodo(at offsets: IndexSet){
         todos.remove(atOffsets: offsets)
+=======
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+>>>>>>> 0ef167f4243667f2c16699463c30909751d1bb0a
     }
 }
 
 #Preview {
     ContentView()
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ef167f4243667f2c16699463c30909751d1bb0a
